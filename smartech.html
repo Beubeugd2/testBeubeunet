@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head> 
+
+<!--Réglage leaflet -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
+<!-- Page html -->
+	<link rel="stylesheet" type="text/css" href="stage.css">
+	<link rel="shortcut icon" href="iconeVille.png"/>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BenoitBorek</title>
+</head>
+<body>
+	<div class="C1">
+	<h1 class="title">Stage : Smartech à Lille</h1>
+	<h4>Du 01/03/2021 au 19/03/2021</h5>
+</div><br><br>
+<div class="C2">
+	<div class="text">
+    Description du stage : <br>
+		Stage axé sur la découverte du fonctionnement d’un magasin de
+réparation de téléphones.<br><br> Où trouver Smartech ? </div>
+</div><br>
+
+<div id="map"></div>
+
+<script type="text/javascript">
+	
+	var map = L.map('map').setView([50.626802, 3.050420], 15);
+
+	L.marker([50.626802, 3.050420]).addTo(map)
+    .bindPopup('19 Rue St Pierre St Paul, 59000 Lille')
+    .openPopup();
+
+	L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+</script>
+
+</body>
+</html>

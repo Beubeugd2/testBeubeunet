@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+
+body {
+   font-family: 'Nunito Sans', sans-serif;
+   background-color: #E3651D;
+   color: white;
+
+
+}
+
+.title{
+
+	font-size: 45px;
+}
+
+.C1 {
+
+    margin-top: 3em;
+	text-align: center;
+}
+
+.text{
+	text-align: center;
+	font-size: 22px;
+}
+
+#map {
+	position: relative;
+	left: 46em;
+	height: 350px;
+	width: 350px;
+}

@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,200&display=swap');
+body {
+
+margin: 0;
+padding: 0;
+ color: black;
+ font-family: 'Nunito Sans', sans-serif;
+ background-color: black;
+
+
+}
+
+.Ctitle{
+   font-weight: bold;
+   font-size: 20px;
+
+}
+
+.Csubtitle{
+
+
+	font-size: 17px;
+}
+
+
+.intro {
+	padding-top: 1em;
+	padding-bottom: 5em;
+color: white;
+text-align: center;
+background-color: #E48F45;
+}
+
+.subtitle {
+
+
+   position: relative;
+   font-size: 15px;
+	font-weight: 100;
+	top: -22px;
+	opacity: 0;
+	transition: 1.5s;
+}
+
+.title {
+
+	font-weight: bold;
+	font-size: 45px;
+}
+
+.subtitle:hover {
+
+
+	opacity: 1;
+}
+
+.I1{
+	margin-top: -35px;
+	font-size: 25px;
+ 
+}
+
+
+
+
+
+
+.loisir{
+		padding-top: 1em;
+	padding-bottom: 12em;
+color: white;
+text-align: center;
+background-color: #994D1C;
+font-family: 'Nunito Sans', sans-serif;
+}
+
+.L1{
+	font-size: 30px;
+}
+
+.L2{
+position: relative;
+top: 3em;
+display: grid;
+font-size: 30px;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr, 2fr;
+gap: 15px;
+
+}
+/*
+.L2P1{
+  background-image: url(code.png);
+ background-repeat: no-repeat;
+ background-size: 100%;
+ border-radius: 5px;
+
+}
+
+.L2P2{
+  background-image: url(EuroWeird.jpg);
+ background-repeat: no-repeat;
+ background-size: 100%;
+ border-radius: 5px;
+
+}
+
+.L2P3{
+  background-image: url(Course2023.jpg);
+ background-repeat: no-repeat;
+ background-size: 100%;
+ border-radius: 5px;
+
+}
+*/
+
+.Parcour{
+		padding-top: 1em;
+	padding-bottom: 10em;
+color: white;
+text-align: center;
+background-color: #6B240C;
+font-family: 'Nunito Sans', sans-serif;
+
+
+}
+
+.P1{
+
+	display: grid;
+	gap: 15px;
+	grid-template-columns: repeat(2, 2fr);
+grid-template-rows: 5fr, 5fr;
+}
+
+.P1C1:hover {
+	background-color: #87451a;
+}
+.P1C2:hover {
+background-color: #87451a;
+
+}
+.P1C3:hover {
+	background-color: #87451a;
+
+}
+
+.P1C1{
+padding: 40px 60px 40px 60px; 
+border-radius: 10px;
+	transition: 1s;
+}
+
+.P1C2{
+padding: 40px 60px 40px 60px; 
+border-radius: 10px;
+	transition: 1s;
+}
+.P1C3{
+padding: 40px 60px 40px 60px; 
+border-radius: 10px;
+	transition: 1s;
+}
+
+
+.Parcour2{
+  		padding-top: 1em;
+	padding-bottom: 10em;
+color: white;
+text-align: center;
+background-color: #4a1807;
+font-family: 'Nunito Sans', sans-serif;
+}
+
+.P21{
+	display: grid;
+	gap: 15px;
+	grid-template-columns: repeat(3, 2fr);
+	grid-template-rows: 1fr;
+}
+
+
+.Rprojet {
+		padding-top: 1em;
+	padding-bottom: 18em;
+color: white;
+text-align: center;
+background-color: #750E21;
+
+}
+
+.R1{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.R2 {
+position: relative;
+top: 3em;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 2fr, 2fr;
+gap: 15px;
+}
+
+.R2C1 {
+
+	padding: 0px 75px 0px 75px;
+
+}
+
+img{ 
+position: absolute;
+right: 15em;
+top: -51px;
+
+	width: 450px; height: 400px; }
+
+.Fprojet{
+		padding-top: 1em;
+	padding-bottom: 12em;
+color: white;
+text-align: center;
+background-color: black;
+}
+
+
+
+#icon1 {
+
+	font-size: 150px;
+	position: relative;
+	top: 0.5em;
+}
+
+
+
+.body:hover{
+
+   background-color: #1d2340;
+
+}
+
+
+
+/* Si l'ecran fait moins de 1000px de large */ 
+
+@media (max-width: 1000px) {
+  .P21{
+	display: grid;
+	gap: 20px;
+	grid-template-columns: repeat(1, 2fr);
+	grid-template-rows: 2fr;
+}
+
+.P1{
+
+	display: grid;
+	gap: 10px;
+	grid-template-columns: repeat(1, 2fr);
+grid-template-rows: 5fr, 5fr;
+}
+
+.Ctitle{font-size: 15px}
+.Csubtitle{font-size: 13px}
+
+.L2{
+position: relative;
+top: 3em;
+display: grid;
+font-size: 30px;
+grid-template-columns: repeat(1, 1fr);
+grid-template-rows: 1fr, 2fr;
+gap: 25px;
+
+}
+
+.title{font-size:25px;}
+.subtitle{font-size: 15px;}
+.I1{font-size: 20px;}
+
+.L1{font-size: 17px; padding: 0px 2em 0px 2em;}
+.L2{font-size: 17px}
+.R1{font-size: 17px; font-weight: 100; padding: 0px 2em 0px 2em;}
+.R2{font-size: 13px;
+ grid-template-columns: repeat(1, 1fr);
+ grid-template-rows: repeat(2, 1fr);
+  gap: 0px;
+}
+.Rprojet{
+	padding-bottom: 1em;
+}
+
+img{opacity: 0; width: 0; height: 0;}
+.Fprojet{padding: 0em 3em 0em 3em;}
+.FT{font-size: 20px}
+.FS{font-size: 17px}
+
+
+}
+
+
+}
+
