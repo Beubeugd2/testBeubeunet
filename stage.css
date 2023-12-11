@@ -26,7 +26,26 @@ body {
 
 #map {
 	position: relative;
-	left: 46em;
+	left: 38%;
 	height: 350px;
 	width: 350px;
+}
+
+@media (max-width : 1000px) {
+
+	#map{
+
+		left: 30%;
+	}
+}
+
+
+@media (max-width : 550px) {
+
+	#map{
+
+		left: 22%;
+	height: 300px;
+	width: 300px;
+	}
 }
